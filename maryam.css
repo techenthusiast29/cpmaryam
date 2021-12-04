@@ -14,7 +14,7 @@ body {
     width: 100px;
     margin: auto;
     display: block;
-    margin-top: 34%;
+    margin-top: 74%;
 }
 
 .footer p {
@@ -80,56 +80,44 @@ main {
 }
 
 @keyframes slide {
-    19% {
+    24% {
         background: url(media/1.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
     }
-    20% {
+    25% {
         background: url(media/2.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
     }
-    39% {
+    49% {
         background: url(media/2.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
     }
-    40% {
+    50% {
         background: url(media/3.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
     }
-    59% {
+    74% {
         background: url(media/3.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
     }
-    60% {
+    75% {
         background: url(media/4.jpg);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-    }
-    79% {
-        background: url(media/4.jpg);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-    }
-    80% {
-        background: url(media/5.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
     }
     99% {
-        background: url(media/5.jpg);
+        background: url(media/4.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -138,7 +126,7 @@ main {
 
 .olatomi {
     font-family: "Dancing Script";
-    font-size: 1.3em;
+    font-size: 1.1em;
     background: transparent;
     padding-top: 20px;
 }
@@ -153,19 +141,15 @@ main {
 .time {
     font-size: 1.2em;
     background: transparent;
-    margin-top: -30px;
 }
 
-.love {
+.start {
     background: transparent;
-    width: 90%;
-    height: 449px;
-    position: absolute;
-    top: 24%;
-    left: 0;
-    right: 0;
-    margin: auto;
-    bowx-shadow: -5px 5px 5px blue;
+    width: 90px;
+    height: 10px;
+    margin-left: 0;
+    margin-bottom: 30px;
+    box-shadow: 0px 4px 0px blue;
     z-index: 1;
     animation-name: love;
     animation-duration: 20s;
@@ -181,16 +165,14 @@ main {
     }
 }
 
-.love::after {
-    content: '';
-    left: 0;
+.end {
     background: transparent;
-    width: 100%;
-    height: 449px;
-    position: absolute;
-    box-shadow: 5px -5px 5px gold;
-    transform: rotate(0deg);
-    z-index: -1;
+    width: 90px;
+    height: 10px;
+    margin-right: 0;
+    margin-left: auto;
+    margin-bottom: 30px;
+    z-index: 1;
     animation-name: love2;
     animation-duration: 20s;
     animation-iteration-count: infinite;
@@ -509,7 +491,8 @@ div.map {
     transform: translate(-50%, -50%);
     box-shadow: 2px 2px gold;
     border-radius: 0 10px;
-    position: absolute;
+    margin: auto;
+    position: relative;
     padding: 5px 2px;
     left: 50%;
     top: 85%;
@@ -654,11 +637,11 @@ div.rsvp a {
         font-family: "Trebuchet MS";
     }
     .love {
-        width: 90vw;
+        width: 9vw;
         height: 90vw;
     }
     .love::after {
-        width: 90vw;
+        width: 9vw;
         height: 90vw;
     }
     .mrs {
