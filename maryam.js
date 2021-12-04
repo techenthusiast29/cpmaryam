@@ -25,3 +25,13 @@
          document.getElementById("time").innerHTML = "Happy Retirement Birthday";
      }
  }, 1000);
+
+
+ $(document).ready(function() {
+     $(".scroll").pullToRefresh({
+             refresh: 200
+         })
+         .on("refresh.pulltorefresh", function() {
+             location.reload();
+         });
+ });
