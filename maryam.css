@@ -178,7 +178,6 @@ main {
     }
     100% {
         box-shadow: 0px 4px 1px gold;
-        background: rgba(0, 0, 0, 0.07);
     }
 }
 
@@ -203,7 +202,6 @@ main {
     }
     100% {
         box-shadow: 0 -5px 1px blue;
-        background: rgba(0, 0, 0, 0.07);
     }
 }
 
@@ -707,7 +705,7 @@ div.rsvp a {
         transform: scale(1);
     }
     .dir {
-        top: 82%;
+        top: 74%;
     }
     .rs-vp {
         top: 82%;
