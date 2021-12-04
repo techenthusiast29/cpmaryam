@@ -9,7 +9,16 @@
     <script src="maryam.js"></script>
     <title>CP Salami B</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <script>
+        $(document).ready(function() {
+            $(".scroll").pullToRefresh({
+                    refresh: 200
+                })
+                .on("refresh.pulltorefresh", function() {
+                    location.reload();
+                });
+        });
+    </script>
 </head>
 
 
@@ -70,7 +79,9 @@
             text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.7);">tap here
                     <span style="text-shadow: 1px 1px 0 gold">&#9757</span></p>
         </div-->
-        <div class="scroll" style="margin-top:-1000px">
+
+
+        <div class="scroll" style="margin-top:-700px;">
             <div class="refresh">
                 Pull To Refresh
             </div>
